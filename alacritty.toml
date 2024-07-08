@@ -1,33 +1,26 @@
-
-# reminder : they want full path here
-import = [ "~/.config/alacritty/rose-pine-moon.toml" ]
-# import = [ "~/.config/alacritty/alacritty_0_12.toml" ]
+import = [ "~/.config/alacritty/monokai_dark.toml" ]
 
 [font]
-size = 10.0
+  size = 13.0
 
-   [font.bold]
-   family = "CaskaydiaCove Nerd Font"
-   style = "Bold"
-   
-   [font.bold_italic]
-   family = "CaskaydiaCove Nerd Font"
-   style = "Bold Italic"
-   
-   [font.italic]
-   family = "CaskaydiaCove Nerd Font"
-   style = "Italic"
-   
-   [font.normal]
-   family = "CaskaydiaCove Nerd Font"
-   style = "Regular"
+[font.bold]
+  family = "CaskaydiaCove Nerd Font"
+  style = "Bold"
 
+[font.bold_italic]
+  family = "CaskaydiaCove Nerd Font"
+  style = "Bold Italic"
+
+[font.italic]
+  family = "CaskaydiaCove Nerd Font"
+  style = "Italic"
+
+[font.normal]
+  family = "CaskaydiaCove Nerd Font"
+  style = "Regular"
 
 [keyboard]
-bindings = [
-   { key = "Return", mods = "Control|Shift", action = "SpawnNewInstance" }
-]
-
+  bindings = [{ key = "Return", mods = "Control|Shift", action = "SpawnNewInstance" }]
 
 [env]
-term = "xterm-256color"
+  term = "xterm-256color"
